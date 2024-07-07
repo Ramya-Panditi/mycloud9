@@ -1,0 +1,25 @@
+.sidenav-link {
+  text-decoration: none;
+  color: white;
+}
+.profile {
+  width: 70px;
+  height: 70px;
+  aspect-ratio: 4/3;
+}
+.sidenav-container {
+  height: 100vh;
+  background-color: rgb(6, 55, 122);
+  position: fixed;
+  width: 15%;
+
+  /* width: 250px; */
+}
+.navbar {
+  width: max-content;
+}
+.navbar-collapse {
+  background-color: rgb(189, 193, 197);
+
+  width: max-content;
+}

@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500&family=Montserrat:wght@100;300;400&display=swap");
+.main-head {
+  font-family: "Inter Tight", sans-serif;
+  font-size: 65px;
+  font-weight: bold;
+}
+
+/* Define the custom font */
+@font-face {
+  font-family: "CustomFont";
+  src: url("../../Anthro-font/AnthroTrial-Semi-Bold-BF642635db07fbc.woff")
+    format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+.aws-logo{
+    color:#ff8002 ;
+    font-size: 18px;
+}
+
+
+/* Use the custom font in your styles */
+body {
+  font-family: "CustomFont", sans-serif;
+}
+.footer-section{
+    width: 100% !important;
+}
+
+.center-cont {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  background: radial-gradient(
+      ellipse,
+      rgba(255, 255, 255, 0) 50%,
+      rgba(255, 255, 255, 1) 20%
+    ),
+    url("D:/Projects/cloud_storage/cloud-app-frontend/src/background.jpg");
+  background-size: cover;
+  background-blend-mode: overlay;
+}
+
+.text-cont {
+  font-family: customFont;
+  font-weight: bold;
+  padding: 0;
+}
+
+.sub-para1 {
+  color: grey !important;
+}
+
+.button-style {
+  width: 120px;
+  /* border-radius: 20px; */
+}
+
+#words {
+  background-color: rgb(246, 252, 189);
+  border-radius: 10px;
+  padding: 5px;
+  font-size: 25px;
+  color: rgb(134, 47, 215);
+}

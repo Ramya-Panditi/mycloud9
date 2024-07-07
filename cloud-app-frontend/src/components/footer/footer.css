@@ -1,0 +1,42 @@
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+
+@font-face {
+  font-family: "CustomFont";
+  src: url("../../Anthro-font/AnthroTrial-Semi-Bold-BF642635db07fbc.woff")
+    format("truetype");
+  /* font-weight: bold; */
+  font-style: normal;
+}
+
+/* Use the custom font in your styles */
+body {
+  font-family: "CustomFont", sans-serif;
+  font-weight: bold;
+  /* background: #fcfcfc; */
+}
+.sub-para3{
+  font-size: 13px;
+}
+.main-footer{
+  width: 100% !important;
+  /* overflow: hidden !important; */
+}
+
+.footer-style {
+  background-color: black;
+  /* width: 98vw !important; */
+}
+
+
+.para-style {
+  /* font-weight: 100 !important; */
+  font-size: 14px;
+}
+.anchor-style {
+  color: white !important;
+  /* text-decoration: none !important; */
+}

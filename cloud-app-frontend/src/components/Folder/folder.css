@@ -1,0 +1,67 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: aliceblue;
+}
+
+.folder {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.folder-title {
+    font-family: CustomFont;
+    font-size: 2rem;
+    margin-bottom: 40px;
+    color: #333;
+}
+
+.folder-images {
+    display: grid;
+    gap: 20px;
+}
+
+.folder-image-wrapper {
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.folder-image-wrapper:hover {
+    transform: scale(1.05);
+}
+
+.folder-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Responsive Grid */
+@media (min-width: 1200px) {
+    .folder-images {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+    .folder-images {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 767px) {
+    .folder-images {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

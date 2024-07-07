@@ -1,0 +1,13 @@
+.auth-forms {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.inner-signup {
+  padding: 5vh 7vw !important;
+}
+
+.custom-file-input{
+  width: 100%;
+}

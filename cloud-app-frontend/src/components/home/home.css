@@ -1,0 +1,113 @@
+@font-face {
+  font-family: "CustomFont";
+  src: url("../../Anthro-font/AnthroTrial-Semi-Bold-BF642635db07fbc.woff")
+    format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+.search-bar {
+  font-family: CustomFont;
+  /* color: red !important; */
+  width: 50vw !important;
+  padding: 15px;
+  border-radius: 30px;
+  border-style: none;
+  background-color: rgb(219, 221, 221);
+  margin-top: 25px;
+  /* border-color: grey; */
+}
+.categories-head {
+  font-weight: bold !important;
+  padding: 15px;
+}
+
+.search-bar::placeholder {
+  color: rgb(133, 172, 181);
+  font-size: 16px;
+  padding-left: 20px;
+}
+.logo-style {
+  font-size: 18px;
+}
+.logo-style2 {
+  font-size: 14px;
+}
+.cat-card {
+  cursor: pointer;
+  color: white;
+  background-color: rgb(110, 45, 239);
+  width: 150px;
+  height: 130px;
+  border-radius: 15px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  transition: all 0.3s;
+}
+.cat-card:hover {
+  scale: 1.1;
+  transition: all 0.3s;
+}
+
+.recent-file-card {
+  background-color: aliceblue;
+  border-radius: 15px;
+  padding: 18px;
+  cursor: pointer;
+}
+.cards-wrap{
+    transition: 0.3s all;
+    width: 70vw !important;
+}
+.cards-wrap :hover {
+  background-color: rgb(110, 45, 239);
+  scale:1.02;
+  color: white;
+  transition: 0.3s all;
+}
+
+.cat-card2 {
+  cursor: pointer;
+  color: white;
+  background-color: rgb(110, 45, 239);
+  width: 120px;
+  height: 110px;
+  border-radius: 15px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  overflow: hidden;
+  transition: all 0.3s;
+}
+.cat-card2:hover {
+  scale: 1.1;
+  transition: all 0.3s;
+}
+.cat-para {
+  font-size: 12px;
+  color: rgb(227, 236, 243);
+}
+
+.cat-card-text3 {
+  font-size: 12px;
+}
+
+.right-side-bar{
+    width:100%;
+    border-radius: 15px;
+    background-color: aliceblue;
+    height: 90vh;
+}
+
+.middle-bar{
+    width:60vw !important;
+}
+.upload-button{
+    /* background-color: rgb(110, 45, 239) ; */
+    border-radius: 15px;
+    height: 16vw;
+    width:16vw;
+}
+
+.upload-logo{
+    font-size: 40px;
+}
